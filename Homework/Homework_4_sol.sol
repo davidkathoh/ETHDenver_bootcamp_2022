@@ -29,7 +29,7 @@ contract VolcanoCoin{
     }
 
     function increaseSupply() public onlyOwner{
-        totalSupply +=totalSupply;
+        totalSupply +=1000;
         emit SupplyChange(totalSupply);
     }
 
